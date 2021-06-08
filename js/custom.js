@@ -56,6 +56,13 @@ $(window).on('load', function(){
 			easing: "swing",
 			speed: 750
 		});
+
+		const mainNav = document.querySelector(".main-nav");
+const hamburgerMenu = document.querySelector(".hamburger-menu");
+
+hamburgerMenu.addEventListener("click", function () {
+  mainNav.classList.toggle("open");
+});
 		
 		
 		// HAMBURGER ICON ANIMATION

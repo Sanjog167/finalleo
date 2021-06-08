@@ -2768,40 +2768,40 @@ body.down .navbar .fa-bars{
 }
 
 .logoact{
-  transition: 200ms ease;
+  transition: 250ms ease;
 }
 
 .midact{
-  transition: 200ms ease;
+  transition: 250ms ease;
 }
 
 .betact{
-  transition: 200ms ease;
+  transition: 250ms ease;
 }
 
 .headact{
-  transition: 200ms ease;
+  transition: 250ms ease;
 }
 
 .askact{
-  transition: 200ms ease-out;
+  transition: 250ms ease-out;
 }
 
-.hamburgermenus{
+.toggle{
   display: none;
   margin-right: 30px;
 }
 
-.navbar.sticky .hamburgermenus{
+.navbar.sticky .toggle{
   display: block;
 }
 
 .navbar.sticky .logotext{
-  transform: translateY(-200%);
+  transform: translateY(-300%);
 }
 
 .navbar.sticky .midheader{
-  transform: translateY(-200%);
+  transform: translateY(-300%);
 }
 
 
@@ -3608,4 +3608,118 @@ font-size: 13px;
 
 .customloadpaw img {
   width: 62%;
+}
+
+.hamburger-menu {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+
+.bar {
+  width: 3rem;
+  height: 2px;
+  background-color: #333;
+  display: inline-block;
+  position: relative;
+  transition: background-color 0.5s;
+  position: fixed;
+}
+
+.bar::before,
+.bar::after {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background-color: #333;
+  transition: all 0.5s;
+}
+
+.wrapper {
+  max-width: 100%;
+}
+
+.bar::before {
+  top: -0.4rem;
+}
+
+.bar::after {
+  top: 0.4rem;
+}
+
+.open.bar {
+  background-color: transparent;
+  /* position: fixed; */
+}
+
+.open.bar::before {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+.open.bar::after {
+  top: 0;
+  transform: rotate(-135deg);
+}
+
+.bar .open.bar::before {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+
+.toggle span{
+  position: relative;
+  height: 1.5px;
+  width: 36px;
+  background-color: gray;
+  display: block;
+  margin-bottom: 8px;
+  transition: .5s;
+}
+
+.toggle span:nth-child(1){
+  transform-origin: left;
+  width: 36px;
+}
+
+
+.toggle span:nth-child(2){
+  transform-origin: center;
+  width: 26px;
+}
+
+
+.toggle span:nth-child(3){
+  transform-origin: left;
+  width: 36px;
+}
+
+.toggle.open span:nth-child(1){
+  transform: rotate(45deg);
+  left: 2px;
+}
+
+.toggle.open span:nth-child(2){
+  transform: rotate(314deg);
+  right: 3px;
+  top: 2.4px;
+  width: 36px;
+}
+
+.toggle.open span:nth-child(3){
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+.midheader{
+  transition: 250ms ease-out;
+}
+
+.askleobutton{
+  transition: 250ms ease-out;
 }
