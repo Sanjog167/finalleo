@@ -81,4 +81,12 @@ hamburgerMenu.addEventListener("click", function () {
 		  $(".navbar").addClass("sticky");
 		}
 	  });
+	  $(window).on("scroll", function () {
+		var scroll = $(window).scrollTop();
+		if (scroll < 50) {
+		  $(".fourcompare").removeClass("sticky");
+		} else {
+		  $(".fourcompare").addClass("sticky");
+		}
+	  });
 })(jQuery);
