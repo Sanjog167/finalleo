@@ -2970,10 +2970,12 @@ font-size: 14px;
   }
 
   .third_section_starts{
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #000;
+    padding-top: 140px;
   }
 
   .second_section_starts .nav-pills {
@@ -3145,7 +3147,7 @@ justify-content: center;
   margin: auto;
   text-align: center;
   color: #1c1b1b;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 .responsive_title h4{
@@ -4455,3 +4457,106 @@ display: none;
     position: absolute;
     bottom: 39px;
   }
+
+
+
+ .amod_title{
+   color: white;
+ }
+
+ 
+ .third_section_starts{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  padding-top: 80px!important;
+}
+
+.responsive4{
+  margin-top: 30px;
+}
+
+.responsive5{
+  margin-top: 30px;
+}
+
+.responsive6{
+  margin-top: 30px;
+}
+
+.alter_1{
+  display: flex;
+  align-items: center;
+}
+
+.alter_1 img{
+  width: 20px;
+  margin-right: 15px;
+}
+
+.alter_1 h5{
+  color: black;
+  margin: 0;
+}
+
+.four_alternatives{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 20px;
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.alterpage .banner_right{
+  position: relative;
+}
+
+.alter_right_img{
+  position: absolute;
+  top: 12%;
+  width: 90%;
+}
+
+@media(max-width:1400px){
+  .alter_circle img{
+    width: 90%;
+  } 
+}
+
+.alternative_comparison{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.freeandpaid{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.freeandpaid img{
+  width: 100px;
+}
+
+.alternative_comparison table img{
+  width: 30px;
+}
+
+.alterwidth{
+  width: 65%;
+  color: black;
+  font-size: 14px!important;
+  padding-left: 20px!important;
+}
+
+.altercross{
+  padding-left: 180px!important;
+}
+
+.table td, .table th {
+  padding: 1rem 0;
+  vertical-align: top;
+  border-top: 1px solid #e9ecef;
+}
