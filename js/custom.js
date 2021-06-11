@@ -89,4 +89,5 @@ hamburgerMenu.addEventListener("click", function () {
 		  $(".fourcompare").addClass("sticky");
 		}
 	  });
+
 })(jQuery);
