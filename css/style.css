@@ -7,7 +7,7 @@
 /*=================================================================*/
 
 :root {
-  --wait-time: 4s;
+  --wait-time: 6s;
   --redcolor: #ed4041;
 }
 
@@ -2411,11 +2411,10 @@ h5 {
 
 .loadpaw img {
   position: absolute;
-  top: -8%;
+ bottom: -5%;
   left: -10%;
   opacity: 0.2;
   width: 22%;
-  transform: rotate(70deg);
 }
 
 @keyframes left {
@@ -3457,10 +3456,11 @@ body.down .navbar .fa-bars {
 
 .footerstart {
   margin: auto;
+  display: flex;
 }
 
 .footerstart input {
-  width: 60%;
+  width: 70%;
 }
 
 .footer_get_started {
@@ -3488,8 +3488,7 @@ body.down .navbar .fa-bars {
   outline-width: 0;
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  height: 40px;
   padding-left: 8px;
   font-size: 13px;
 }
@@ -5498,7 +5497,7 @@ margin-bottom: 5rem;
     font-size: 45px;
   }
   .physicalworkplace p{
-    font-size: 19px;
+    font-size: 18px;
     width: 85%;
   }
   .feature_input input {
@@ -5527,7 +5526,7 @@ margin-bottom: 5rem;
 
 .hidden_content_para p {
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 18px;
   width: 100%;
   margin: 1rem auto;
 }
@@ -5548,7 +5547,7 @@ margin-bottom: 5rem;
 
 .realmac {
   width: 510px;
-  margin-left: 53px;
+  margin-left: 2px;
   margin-top: 49px;
 }
 
@@ -5718,7 +5717,11 @@ top: inherit;
 
 .needmorereasons .laptop img{
   width: inherit;
-  margin-left: 3px;
+  margin-left: 5px;
+}
+
+.newlaptop img{
+  margin-left: -5px!important;
 }
 
 .dontknowhowto .leback img {
@@ -5752,11 +5755,429 @@ top: inherit;
   margin-bottom: 50px;
 }
 
+.confusedsection{
+  margin-bottom: 50px;
+}
+
 .needreasonnext .leback img {
   width: 94%;
   max-width: inherit;
   height: inherit;
   z-index: -1;
 }
+
+.confusedsection .leback img {
+  width: 96%;
+  max-width: inherit;
+  height: inherit;
 }
 
+.confusedsection button {
+  background-color: transparent;
+  box-shadow: unset;
+  color: var(--redcolor);
+  font-weight: bold;
+  border: 1px solid var(--redcolor);
+  width: inherit;
+}
+
+.confusedsection .col-lg-6 button{
+  display: none;
+}
+
+.confusedsection .secondtab button{
+  display: block;
+}
+.referandearn h3 {
+  color: white;
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.referandearn button {
+  border: none;
+  color: white;
+  background: #ed4041 0% 0% no-repeat padding-box;
+  box-shadow: 2px 2px 15px #ed40417a;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 7px 25px;
+  outline-width: 0;
+  font-weight: 500;
+  width: fit-content;
+  margin-top: 20px;
+}
+
+.referandearn{
+  height: inherit;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.leocustom h5 {
+  color: black;
+  font-weight: 600;
+  width: inherit;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.leocustom_inside img {
+  width: 100%;
+}
+
+.swiper_index {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.corporates {
+  margin-left: inherit;
+  margin-right: inherit;
+  background: #000000 0% 0% no-repeat padding-box;
+  box-shadow: 18px 30px 30px #46464629;
+  border-radius: 32px;
+}
+
+.footer_get_started {
+  width: 100%;
+}
+
+.bottom_footer .rows {
+  display: flex;
+  flex-direction: column;
+  align-items: inherit;
+  justify-content: space-between;
+}
+
+.social_medias{
+  margin-top: 20px;
+}
+
+.realmac{
+  max-width: inherit;
+}
+}
+
+@media(min-width:1600px){
+  .second_section_feature_title h5 {
+    color: #707070 !important;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+}
+.second_section_multiple_option h5 {
+  color: #1c1b1b;
+  width: 100%;
+  font-size: 20px;
+}
+
+.second_section_starts a{
+  font-size: 18px;
+}
+
+.second_section_starts .reddot img {
+  width: 70%;
+  height: 573px;
+}
+
+.second_section_starts .reddot {
+  position: absolute;
+  top: -80px;
+  left: 23.5%;
+}
+
+.second_section_starts .dashboard {
+  position: absolute;
+  left: 16%;
+  top: 1.5%;
+}
+
+.second_section_starts .dashboard img {
+  width: 94% !important;
+}
+
+.second_section_starts .reddot img {
+  width: 100%;
+  height: 100%;
+  max-width: inherit;
+}
+
+.second_section_starts .redellipse img {
+  width: 50%;
+}
+
+.tab_title_with_content p {
+  color: #1c1b1b;
+  font-size: 18px;
+  font-weight: 500;
+  width: 75%;
+  margin-left: 22px;
+}
+
+.responsive_content h4 {
+  font-size: 18px;
+  width: 60%;
+  margin: auto auto 23px;
+}
+
+.responsive_content p {
+  font-weight: 500;
+  width: 73%;
+  text-align: center;
+  margin: auto;
+  font-size: 15.4px;
+}
+
+.dontknowhowto .leback {
+  position: absolute;
+  left: -10px;
+  z-index: -1;
+  top: -37px;
+}
+
+.dontknowhowto .leback img{
+  height: 100%;
+  width: 100%;
+}
+
+.needmorereasons .laptop {
+  position: absolute;
+  top: 12%;
+  left: 2%;
+}
+
+.needmorereasons .laptop img{
+  height: inherit;
+}
+
+.needreasonnext .leback img {
+  width: 100%;
+  max-width: inherit;
+  height: 100%;
+  z-index: -1;
+}
+
+.needreasonnext .leback {
+  position: absolute;
+  top: -38px;
+  left: 58px;
+  z-index: -1;
+}
+
+
+
+.needmorereasons .laptop img {
+  width: 123%;
+  height: 483px;
+  margin-top: 8px;
+  max-width: inherit;
+}
+
+.needmorereasons .laptop {
+  position: absolute;
+  top: 12%;
+  left: -7%;
+}
+
+.needreasonnext .laptop {
+  position: absolute;
+  top: 12%;
+  left: 3%;
+}
+.confusedsection .leback img {
+  width: 96%;
+  max-width: inherit;
+  height: 100%;
+}
+.confusedsection .leback {
+  position: absolute;
+  top: -13px;
+  left: 66px;
+}
+.second_section_button button{
+  font-size: 18px;
+}
+
+.mainbanner button{
+  font-size: 18px;
+}
+
+.package_list li{
+  font-size: 15px;
+}
+
+.lefty {
+  margin-right: 30px;
+}
+
+.total_list li{
+  font-size: 15px;
+}
+
+.referandearn {
+  background-color: #3d3b3b;
+  margin-top: 4rem;
+  height: 35vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+  z-index: 1;
+}
+.leocustom button{
+  font-size: 18px;
+}
+
+.corporate_left p {
+  color: white;
+  width: 80%;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.featuretag a {
+  font-size: 16px;
+  color: rgb(112, 112, 112);
+}
+
+.headbutton1 a{
+  font-size: 16px!important;
+}
+
+.footerstart input {
+  width: 76%;
+  height: 50px;
+}
+
+.realfooterhead h5 {
+  color: black;
+  font-size: 20px;
+}
+
+.footer_content a{
+  font-size: 16px;
+}
+
+
+}
+
+.second_section_starts .reddot{
+  z-index: -1;
+}
+
+.confusedsection .leback{
+  z-index: -1;
+}
+
+.confusedsection .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background: 0% 0% no-repeat padding-box padding-box rgb(237, 64, 65);
+  box-shadow: rgb(237 64 65 / 48%) 2px 2px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 11px 98px 11px 67px;
+  overflow: hidden;
+  width: 100%;
+  color: white !important;
+}
+
+.maincustom {
+  opacity: 0.05;
+  height: 431px;
+  width: 100%;
+}
+
+.second_section_starts{
+  height: inherit;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.explore_demos{
+  background-color: transparent!important;
+  box-shadow: unset!important;
+  border: 1px solid var(--redcolor)!important;
+  color: var(--redcolor)!important;
+}
+
+.hidden_content {
+  position: absolute;
+  top: 25%;
+  opacity: 0;
+  animation: reveal 1.2s forwards;
+  animation-delay: calc(var(--wait-time) + 1.3s);
+  width: 34%;
+}
+
+.hidden_content h3{
+  font-size: 38px;
+}
+
+@media(min-width:1600px){
+  .hidden_content {
+    width: 30%;
+    position: absolute;
+  top: 30%;
+  }
+}
+
+.explore_demos{
+  margin-left: 10px;
+}
+
+.black_bg{
+  height: 90vh;
+  display: grid;
+  place-items: center;
+  background-color: #000000;
+}
+
+.black_bg h3{
+  width: 60%;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.white_bg{
+  height: 90vh;
+  display: grid;
+  place-items: center;
+  background-color: white;
+}
+
+.white_bg h3{
+  width: 60%;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}
+
+
+.responsive_content p {
+  font-weight: 500;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  height: 100px;
+}
+
+.responsive_content h4 {
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 23px;
+  height: 30px;
+}
+
+.confusedsection .tab_title_with_content{
+  margin-left: inherit;
+  margin-top: 2rem;
+}
+
+.confusedsection .tab_title_with_content p{
+  width: 100%;
+}
